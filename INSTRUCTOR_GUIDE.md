@@ -1,134 +1,134 @@
-# Instructor's Lesson Plan - Seismology Day 1
+# 教師課程計畫 - 地震學第一天
 
-**Duration:** 3 hours (180 minutes)  
-**Format:** Interactive, hands-on workshop  
-**Platform:** Google Colab (recommended) or local Jupyter  
-**Prerequisites:** None - absolute beginners welcome!
-
----
-
-## 📋 Preparation Checklist (Before Class)
-
-### One Week Before
-- [ ] Send welcome email with links to SETUP_GUIDE.md
-- [ ] Create class Google Colab notebook (or share first_day_tutorial.ipynb link)
-- [ ] Test all code examples in notebook
-- [ ] Verify IRIS data center is accessible
-- [ ] Prepare example earthquake list (recent significant events)
-- [ ] Set up NotebookLM with course textbook
-- [ ] Create discussion forum/channel (Slack/Discord/etc.)
-
-### One Day Before
-- [ ] Verify all students have Google accounts (for Colab)
-- [ ] Share Colab notebook link with edit access or view-only
-- [ ] Prepare backup activities in case of technical issues
-- [ ] Test internet connectivity and projector setup
-- [ ] Have ObsPy documentation bookmarked
-- [ ] Prepare Q&A slides (optional)
-
-### Morning Of
-- [ ] Arrive 15 minutes early
-- [ ] Test projector and screen sharing
-- [ ] Open all necessary tabs (Colab, IRIS, USGS, NotebookLM)
-- [ ] Write WiFi password on board
-- [ ] Have backup laptop ready
-- [ ] Prepare sign-in sheet (if needed)
+**時長：** 3 小時（180 分鐘）  
+**形式：** 互動式實作工作坊  
+**平台：** Google Colab（推薦）或本地 Jupyter  
+**先修條件：** 無 - 歡迎完全的初學者！
 
 ---
 
-## ⏰ Detailed Timeline
+## 📋 課前準備檢查清單
 
-### Module 1: Welcome & Introduction (0-20 min)
+### 提前一週
+- [ ] 發送歡迎郵件並附上 SETUP_GUIDE.md 的連結
+- [ ] 創建課堂 Google Colab 筆記本（或分享 first_day_tutorial.ipynb 連結）
+- [ ] 測試筆記本中的所有程式碼範例
+- [ ] 驗證 IRIS 資料中心可訪問
+- [ ] 準備範例地震清單（最近的重大事件）
+- [ ] 使用課程教科書設置 NotebookLM
+- [ ] 創建討論論壇/頻道（Slack/Discord 等）
 
-**0-5 min: Welcome**
-- Introduce yourself and teaching assistants
-- Quick icebreaker: "What brings you to seismology?"
-- Overview of the day's agenda
-- Housekeeping (bathrooms, breaks, emergency exits)
+### 提前一天
+- [ ] 驗證所有學生都有 Google 帳號（用於 Colab）
+- [ ] 分享 Colab 筆記本連結（編輯權限或僅檢視）
+- [ ] 準備備用活動以應對技術問題
+- [ ] 測試網路連接和投影儀設置
+- [ ] 將 ObsPy 文檔加入書籤
+- [ ] 準備問答投影片（可選）
 
-**5-10 min: What is Seismology?**
-- Show recent earthquake video/news
-- Explain real-world applications:
-  - Earthquake hazard assessment
-  - Earth structure studies
-  - Nuclear monitoring
-  - Exploration geophysics
-- Share personal research story (if applicable)
-
-**10-15 min: The "Antigravity" Approach**
-- Explain the philosophy: removing barriers to learning
-- Demo: Show how easy it is to get real data (30 seconds)
-- Highlight AI tools as learning companions
-- Set expectations: hands-on, exploratory, supportive
-
-**15-20 min: Setup Check**
-- "Everyone open Google Colab now"
-- Walk through accessing Colab
-- Troubleshoot common issues
-- Pair students who are ahead with those struggling
-
-**💡 Teaching Tips:**
-- Be enthusiastic and welcoming
-- Share your own learning journey
-- Acknowledge that coding can be intimidating
-- Emphasize: mistakes are learning opportunities
+### 課程當天早上
+- [ ] 提前 15 分鐘到達
+- [ ] 測試投影儀和螢幕分享
+- [ ] 打開所有必要的分頁（Colab、IRIS、USGS、NotebookLM）
+- [ ] 在白板上寫下 WiFi 密碼
+- [ ] 準備備用筆記型電腦
+- [ ] 準備簽到表（如需要）
 
 ---
 
-### Module 2: AI Tools Introduction (20-35 min)
+## ⏰ 詳細時間表
 
-**20-25 min: Gemini AI Demo**
-- Live demo: Ask Gemini to write simple code
-- Show debugging example with real error
-- Demonstrate code explanation feature
-- Have students try: "Write code to import ObsPy"
+### 模組 1：歡迎與介紹（0-20 分鐘）
 
-**25-30 min: NotebookLM Setup**
-- Guide students through NotebookLM access
-- Demo: Upload sample textbook chapter/notes
-- Show example queries and responses
-- Students practice: Ask about a seismology concept
+**0-5 分鐘：歡迎**
+- 介紹自己和助教
+- 快速破冰：「是什麼讓你對地震學感興趣？」
+- 今天議程概覽
+- 日常事項（洗手間、休息、緊急出口）
 
-**30-35 min: Effective Prompting**
-- Share AI_PROMPTS_GUIDE.md highlights
-- Show good vs. bad prompts
-- Practice together: craft a good prompt
-- Emphasize: specific, contextual, iterative
+**5-10 分鐘：什麼是地震學？**
+- 展示最近的地震影片/新聞
+- 解釋實際應用：
+  - 地震災害評估
+  - 地球結構研究
+  - 核監測
+  - 探勘地球物理學
+- 分享個人研究故事（如適用）
 
-**💡 Teaching Tips:**
-- Normalize using AI - it's a tool, not cheating
-- Show real examples of when AI helps you
-- Demonstrate how to verify AI responses
-- Encourage experimentation
+**10-15 分鐘：「反重力」方法**
+- 解釋理念：消除學習障礙
+- 演示：展示獲取真實資料有多容易（30 秒）
+- 強調 AI 工具作為學習夥伴
+- 設定期望：動手操作、探索性、支持性
+
+**15-20 分鐘：設置檢查**
+- 「每個人現在打開 Google Colab」
+- 逐步引導訪問 Colab
+- 解決常見問題
+- 讓進度較快的學生與遇到困難的學生配對
+
+**💡 教學提示：**
+- 保持熱情和歡迎態度
+- 分享你自己的學習歷程
+- 承認編程可能令人生畏
+- 強調：錯誤是學習的機會
 
 ---
 
-### Module 3: Python & ObsPy Basics (35-60 min)
+### 模組 2：AI 工具介紹（20-35 分鐘）
 
-**35-40 min: First Code Cells**
+**20-25 分鐘：Gemini AI 演示**
+- 現場演示：讓 Gemini 編寫簡單程式碼
+- 展示真實錯誤的除錯範例
+- 演示程式碼解釋功能
+- 讓學生嘗試：「編寫匯入 ObsPy 的程式碼」
+
+**25-30 分鐘：NotebookLM 設置**
+- 引導學生訪問 NotebookLM
+- 演示：上傳範例教科書章節/筆記
+- 展示範例查詢和回應
+- 學生練習：詢問地震學概念
+
+**30-35 分鐘：有效提示**
+- 分享 AI_PROMPTS_GUIDE.md 重點
+- 展示好的與壞的提示
+- 一起練習：製作好的提示
+- 強調：具體、情境化、反覆運算
+
+**💡 教學提示：**
+- 將使用 AI 正常化 - 這是工具，不是作弊
+- 展示 AI 何時幫助你的真實範例
+- 演示如何驗證 AI 回應
+- 鼓勵實驗
+
+---
+
+### 模組 3：Python 與 ObsPy 基礎（35-60 分鐘）
+
+**35-40 分鐘：第一個程式碼單元格**
 ```python
 # Cell 1: Test Python
 print("Hello Seismology!")
 x = [1, 2, 3, 4, 5]
 print(f"Sum: {sum(x)}")
 ```
-- Everyone runs this together
-- Celebrate first success!
-- Explain cells, Shift+Enter
-- Show output area
+- 每個人一起執行
+- 慶祝第一次成功！
+- 解釋單元格、Shift+Enter
+- 展示輸出區域
 
-**40-45 min: Library Installation**
+**40-45 分鐘：程式庫安裝**
 ```python
 # Cell 2: Install ObsPy
 !pip install obspy -q
 print("✅ ObsPy installed!")
 ```
-- Explain what pip does
-- Show progress indicators
-- Wait for everyone to complete
-- Troubleshoot any issues
+- 解釋 pip 的作用
+- 展示進度指示器
+- 等待所有人完成
+- 解決任何問題
 
-**45-50 min: Import Libraries**
+**45-50 分鐘：匯入程式庫**
 ```python
 # Cell 3: Import tools
 from obspy import UTCDateTime
@@ -136,40 +136,40 @@ from obspy.clients.fdsn import Client
 import matplotlib.pyplot as plt
 import numpy as np
 ```
-- Explain each import
-- Discuss what each library does
-- Show documentation links
-- Check for import errors
+- 解釋每個匯入
+- 討論每個程式庫的作用
+- 展示文檔連結
+- 檢查匯入錯誤
 
-**50-55 min: Connect to Data**
+**50-55 分鐘：連接到資料**
 ```python
 # Cell 4: Connect to IRIS
 client = Client("IRIS")
 print("📡 Connected!")
 ```
-- Explain IRIS and FDSN
-- Show IRIS website briefly
-- Discuss global seismic networks
-- Preview what data we can access
+- 解釋 IRIS 和 FDSN
+- 簡要展示 IRIS 網站
+- 討論全球地震網路
+- 預覽我們可以訪問的資料
 
-**55-60 min: Quick Break & Questions**
-- 5-minute stretch break
-- Answer questions
-- Check pace - adjust if needed
-- Preview next module
+**55-60 分鐘：快速休息與問答**
+- 5 分鐘伸展休息
+- 回答問題
+- 檢查進度 - 根據需要調整
+- 預覽下一個模組
 
-**💡 Teaching Tips:**
-- Go slowly - many may be coding for first time
-- Use "we" language: "Let's try this together"
-- Have TAs circulate to help individuals
-- Celebrate small wins loudly
-- Show your own screen for each step
+**💡 教學提示：**
+- 放慢速度 - 許多人可能是第一次編程
+- 使用「我們」的語言：「讓我們一起試試這個」
+- 讓助教巡視幫助個別學生
+- 大聲慶祝小小的勝利
+- 每一步都展示你自己的螢幕
 
 ---
 
-### Module 4: First Earthquake Analysis (60-100 min)
+### 模組 4：第一次地震分析（60-100 分鐘）
 
-**60-70 min: Download Real Data**
+**60-70 分鐘：下載真實資料**
 ```python
 # Cell 5: Get earthquake data
 start = UTCDateTime("2024-02-06T01:17:00")
@@ -184,27 +184,27 @@ st = client.get_waveforms(
 print(st)
 ```
 
-**Teaching Points:**
-- Use a recent significant earthquake
-- Explain each parameter
-- Show station on map
-- Discuss channel codes (refer to QUICK_REFERENCE.md)
-- Troubleshoot download issues
+**教學要點：**
+- 使用最近的重大地震
+- 解釋每個參數
+- 在地圖上顯示台站
+- 討論通道代碼（參考 QUICK_REFERENCE.md）
+- 解決下載問題
 
-**70-80 min: Visualize Data**
+**70-80 分鐘：視覺化資料**
 ```python
 # Cell 6: Plot the earthquake
 st.plot()
 ```
 
-**Interactive Discussion:**
-- What do we see?
-- Point out P-wave arrival
-- Identify S-wave arrival
-- Discuss surface waves
-- Compare with students' plots
+**互動討論：**
+- 我們看到了什麼？
+- 指出 P 波到達
+- 識別 S 波到達
+- 討論表面波
+- 與學生的圖表比較
 
-**80-90 min: Process Data**
+**80-90 分鐘：處理資料**
 ```python
 # Cell 7: Filter the data
 st_filtered = st.copy()
@@ -220,13 +220,13 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Teaching Points:**
-- Why filter? (remove noise)
-- What frequencies to choose?
-- Always copy before modifying!
-- Discuss differences in plots
+**教學要點：**
+- 為什麼要濾波？（去除雜訊）
+- 選擇什麼頻率？
+- 修改前永遠先複製！
+- 討論圖表中的差異
 
-**90-100 min: Basic Analysis**
+**90-100 分鐘：基本分析**
 ```python
 # Cell 9: Calculate statistics
 data = st_filtered[0].data
@@ -238,67 +238,67 @@ print(f"Maximum amplitude: {max_amp}")
 print(f"Peak arrival: {peak_time:.1f} seconds")
 ```
 
-**Interactive Exercise:**
-- Have students find values
-- Compare results (should be similar)
-- Discuss what values mean
-- Relate to earthquake size/distance
+**互動練習：**
+- 讓學生找出數值
+- 比較結果（應該相似）
+- 討論數值的意義
+- 與地震規模/距離關聯
 
-**💡 Teaching Tips:**
-- Use live, recent earthquakes when possible
-- Show enthusiasm when data appears!
-- Zoom in on interesting features
-- Encourage students to explore their plots
-- Be prepared for download failures (backup examples)
-
----
-
-### Module 5: Hands-On Practice (100-130 min)
-
-**100-105 min: Introduce Challenge**
-Present 3 difficulty levels:
-
-**Easy Challenges:**
-1. Change station to "ANMO"
-2. Download 20 minutes instead of 10
-3. Try different filter frequencies
-
-**Medium Challenges:**
-4. Download all three components (BH*)
-5. Plot all components together
-6. Measure P-S time difference
-
-**Advanced Challenges:**
-7. Download from multiple stations
-8. Create a spectrogram
-9. Calculate signal-to-noise ratio
-
-**105-125 min: Student Work Time**
-- Students work individually or in pairs
-- TAs and instructor circulate
-- Provide hints, not solutions
-- Encourage using AI when stuck
-- Help debug issues
-
-**125-130 min: Share Results**
-- Volunteers show their work (2-3 students)
-- Discuss different approaches
-- Celebrate successes
-- Learn from failures
-
-**💡 Teaching Tips:**
-- Create supportive environment for sharing
-- Highlight creative solutions
-- Show how AI helped (or didn't)
-- Acknowledge effort, not just results
+**💡 教學提示：**
+- 盡可能使用即時、最近的地震
+- 當資料出現時展現熱情！
+- 放大有趣的特徵
+- 鼓勵學生探索他們的圖表
+- 準備好應對下載失敗（備用範例）
 
 ---
 
-### Module 6: Advanced Topics Teaser (130-145 min)
+### 模組 5：實作練習（100-130 分鐘）
 
-**Quick demonstrations (5 min each):**
+**100-105 分鐘：介紹挑戰**
+呈現 3 個難度級別：
 
-**1. Multiple Stations**
+**簡單挑戰：**
+1. 將台站改為 "ANMO"
+2. 下載 20 分鐘而不是 10 分鐘
+3. 嘗試不同的濾波頻率
+
+**中等挑戰：**
+4. 下載所有三個分量 (BH*)
+5. 將所有分量一起繪圖
+6. 測量 P-S 時間差
+
+**進階挑戰：**
+7. 從多個台站下載
+8. 創建頻譜圖
+9. 計算訊噪比
+
+**105-125 分鐘：學生工作時間**
+- 學生單獨或成對工作
+- 助教和講師巡視
+- 提供提示，而非解答
+- 鼓勵在遇到困難時使用 AI
+- 協助除錯問題
+
+**125-130 分鐘：分享結果**
+- 志願者展示他們的作品（2-3 名學生）
+- 討論不同的方法
+- 慶祝成功
+- 從失敗中學習
+
+**💡 教學提示：**
+- 創造支持性的分享環境
+- 強調創造性的解決方案
+- 展示 AI 如何幫助（或沒有）
+- 認可努力，而非只是結果
+
+---
+
+### 模組 6：進階主題預覽（130-145 分鐘）
+
+**快速演示（每個 5 分鐘）：**
+
+**1. 多台站**
 ```python
 stations = ["ANMO", "ANTO", "COLA"]
 streams = []
@@ -308,225 +308,225 @@ for sta in stations:
     streams.append(st)
 ```
 
-**2. Spectrogram**
+**2. 頻譜圖**
 ```python
 st[0].spectrogram()
 ```
 
-**3. Map of Stations**
-- Show IRIS or USGS map
-- Discuss network coverage
-- Preview Day 2 topics
+**3. 台站地圖**
+- 展示 IRIS 或 USGS 地圖
+- 討論網路覆蓋範圍
+- 預覽第二天主題
 
-**💡 Teaching Tips:**
-- Keep it high-level, don't dive deep
-- Build excitement for next session
-- Show what's possible with more practice
-
----
-
-### Module 7: Wrap-up & Next Steps (145-165 min)
-
-**145-150 min: Review What We Learned**
-- Quick recap of skills gained
-- Emphasize progress made
-- Address final questions
-
-**150-155 min: Resources & Homework**
-- Point to repository files
-- Assign practice exercises:
-  - Analyze 3 different earthquakes
-  - Try each challenge level
-  - Document findings (short report)
-- Share additional resources
-
-**155-160 min: Preview Day 2**
-- Earthquake location methods
-- Magnitude calculations
-- Machine learning applications
-- Real-time data analysis
-
-**160-165 min: Feedback & Closing**
-- Quick survey (Google Form)
-- Open discussion
-- Thank students
-- Remind about office hours
+**💡 教學提示：**
+- 保持高層次，不要深入探討
+- 為下一節課建立期待
+- 展示更多練習後的可能性
 
 ---
 
-## 🎯 Learning Objectives Check
+### 模組 7：總結與後續步驟（145-165 分鐘）
 
-By end of session, students should be able to:
-- [ ] Access and use Google Colab
-- [ ] Install Python libraries
-- [ ] Use Gemini AI for coding help
-- [ ] Download seismic data from IRIS
-- [ ] Create basic plots of seismograms
-- [ ] Apply filters to seismic data
-- [ ] Calculate simple statistics
-- [ ] Use NotebookLM for learning
-- [ ] Debug basic errors
-- [ ] Work independently on simple tasks
+**145-150 分鐘：回顧所學內容**
+- 快速回顧獲得的技能
+- 強調取得的進展
+- 解答最後的問題
 
----
+**150-155 分鐘：資源與作業**
+- 指向存儲庫檔案
+- 指派練習任務：
+  - 分析 3 個不同的地震
+  - 嘗試每個挑戰級別
+  - 記錄發現（簡短報告）
+- 分享額外資源
 
-## 🎓 Assessment Strategies
+**155-160 分鐘：預覽第二天**
+- 地震定位方法
+- 震級計算
+- 機器學習應用
+- 即時資料分析
 
-### Formative (During Class)
-- Observe student screens while circulating
-- Ask questions to check understanding
-- Quick polls: "Who successfully downloaded data?"
-- Code review during exercises
-
-### Summative (After Class)
-- Homework completion
-- Quality of earthquake analysis
-- Ability to use AI tools
-- Self-reported confidence survey
+**160-165 分鐘：反饋與結束**
+- 快速調查（Google 表單）
+- 開放討論
+- 感謝學生
+- 提醒辦公時間
 
 ---
 
-## 🔧 Troubleshooting Guide
+## 🎯 學習目標檢查
 
-### Common Technical Issues
-
-**Colab Won't Load**
-- Solution: Try incognito mode
-- Backup: Use local Jupyter
-- Alternative: Binder link
-
-**ObsPy Install Fails**
-- Solution: Restart runtime
-- Alternative: Try `!pip install --upgrade obspy`
-
-**No Data Available**
-- Solution: Adjust time window
-- Alternative: Use different station
-- Backup: Provide pre-downloaded data
-
-**Plot Doesn't Show**
-- Solution: Add `%matplotlib inline`
-- Alternative: Use `plt.show()`
-
-**Internet Issues**
-- Backup: Have local data files
-- Activity: Work with provided examples
-- Discussion: Conceptual questions
+在課程結束時，學生應能夠：
+- [ ] 訪問和使用 Google Colab
+- [ ] 安裝 Python 程式庫
+- [ ] 使用 Gemini AI 獲得編碼幫助
+- [ ] 從 IRIS 下載地震資料
+- [ ] 創建地震圖的基本圖表
+- [ ] 對地震資料應用濾波器
+- [ ] 計算簡單的統計量
+- [ ] 使用 NotebookLM 學習
+- [ ] 除錯基本錯誤
+- [ ] 獨立完成簡單任務
 
 ---
 
-## 📊 Classroom Management
+## 🎓 評估策略
 
-### Pacing
-- Watch for students falling behind
-- Adjust speed based on group
-- Have advanced students help others
-- Optional sections if ahead of schedule
+### 形成性評估（課堂中）
+- 巡視時觀察學生螢幕
+- 提問以檢查理解程度
+- 快速投票：「誰成功下載了資料？」
+- 練習期間的程式碼審查
 
-### Engagement
-- Ask questions frequently
-- Use think-pair-share
-- Cold call gently
-- Celebrate discoveries
-
-### Inclusion
-- Use varied examples
-- Acknowledge different backgrounds
-- Provide multiple paths to success
-- Create safe space for questions
+### 總結性評估（課後）
+- 作業完成度
+- 地震分析的品質
+- AI 工具的使用能力
+- 自我報告的信心調查
 
 ---
 
-## 💡 Teaching Philosophy
+## 🔧 疑難排解指南
 
-### Core Principles
-1. **Mistakes are valuable**: Create safe space to fail
-2. **Active learning**: Students do, don't just watch
-3. **Scaffolded support**: Start guided, end independent
-4. **Real-world context**: Use actual earthquakes
-5. **AI as tool**: Normalize and guide its use
-6. **Collaborative**: Learn from each other
+### 常見技術問題
 
-### Your Role
-- **Guide, not lecturer**: Facilitate discovery
-- **Debugger-in-chief**: Help solve problems
-- **Enthusiasm generator**: Show excitement
-- **Safety net**: Ensure no one gets lost
-- **Role model**: Show how you learn/work
+**Colab 無法載入**
+- 解決方案：嘗試無痕模式
+- 備用：使用本地 Jupyter
+- 替代：Binder 連結
 
----
+**ObsPy 安裝失敗**
+- 解決方案：重新啟動執行環境
+- 替代：嘗試 `!pip install --upgrade obspy`
 
-## 📝 Post-Class Actions
+**沒有可用的資料**
+- 解決方案：調整時間視窗
+- 替代：使用不同的台站
+- 備用：提供預先下載的資料
 
-### Immediately After
-- [ ] Save all notebook outputs
-- [ ] Note what worked/didn't
-- [ ] Respond to urgent questions
-- [ ] Back up any student work
+**圖表不顯示**
+- 解決方案：添加 `%matplotlib inline`
+- 替代：使用 `plt.show()`
 
-### Within 24 Hours
-- [ ] Send follow-up email with resources
-- [ ] Post solutions to exercises
-- [ ] Review feedback survey
-- [ ] Update materials based on feedback
-
-### Before Next Session
-- [ ] Revise lesson plan as needed
-- [ ] Prepare Day 2 materials
-- [ ] Grade homework (if applicable)
-- [ ] Send reminder email
+**網路問題**
+- 備用：準備本地資料檔案
+- 活動：使用提供的範例
+- 討論：概念性問題
 
 ---
 
-## 🎯 Success Indicators
+## 📊 課堂管理
 
-### During Class
-✅ Most students smiling and engaged  
-✅ Questions are about content, not just tech issues  
-✅ Students helping each other  
-✅ You hear "That's so cool!" or "Wow!"  
-✅ Time flies by
+### 節奏控制
+- 留意落後的學生
+- 根據群體調整速度
+- 讓進度快的學生幫助其他人
+- 如果進度超前，準備可選章節
 
-### After Class
-✅ Students ask when next session is  
-✅ They continue working after class  
-✅ High survey satisfaction scores  
-✅ Students report to colleagues/friends  
-✅ You feel energized, not drained
+### 參與度
+- 經常提問
+- 使用「思考-配對-分享」
+- 溫和地點名
+- 慶祝發現
 
----
-
-## 📚 Additional Resources for Instructors
-
-### Pedagogical Background
-- Active Learning in STEM
-- Constructivist Teaching Methods
-- AI in Education research
-
-### Technical Resources
-- ObsPy documentation
-- IRIS webinars
-- Seismological Society education materials
-
-### Community
-- Instructor discussion forum
-- ObsPy mailing list
-- Seismology education network
+### 包容性
+- 使用多樣化的範例
+- 認可不同的背景
+- 提供多種成功途徑
+- 創造安全的提問空間
 
 ---
 
-**Remember: Your goal is not perfection, but progress. Make it fun, make it accessible, and students will thrive!** 🌟
+## 💡 教學理念
+
+### 核心原則
+1. **錯誤是有價值的**：創造安全的失敗空間
+2. **主動學習**：學生實踐，而非只是觀看
+3. **階梯式支持**：從引導開始，以獨立結束
+4. **真實世界情境**：使用實際地震
+5. **AI 作為工具**：使其使用正常化並引導使用
+6. **協作式**：互相學習
+
+### 你的角色
+- **引導者，非講師**：促進發現
+- **首席除錯員**：幫助解決問題
+- **熱情產生器**：展現興奮
+- **安全網**：確保沒有人迷失
+- **榜樣**：展示你如何學習/工作
 
 ---
 
-## 🔄 Continuous Improvement
+## 📝 課後行動
 
-After each class:
-1. What worked well? Do more of it.
-2. What didn't work? Fix or remove it.
-3. What surprised you? Investigate why.
-4. What questions came up? Add to FAQ.
-5. How can AI tools help more? Integrate better.
+### 課後立即
+- [ ] 保存所有筆記本輸出
+- [ ] 記錄有效/無效的內容
+- [ ] 回應緊急問題
+- [ ] 備份任何學生作品
 
-**Teaching is learning. Each class makes you better!** 🚀
+### 24 小時內
+- [ ] 發送後續郵件並附上資源
+- [ ] 發布練習題解答
+- [ ] 審查反饋調查
+- [ ] 根據反饋更新材料
+
+### 下次課程前
+- [ ] 根據需要修改課程計畫
+- [ ] 準備第二天的材料
+- [ ] 批改作業（如適用）
+- [ ] 發送提醒郵件
+
+---
+
+## 🎯 成功指標
+
+### 課堂中
+✅ 大多數學生面帶微笑且積極參與  
+✅ 問題是關於內容，而非只是技術問題  
+✅ 學生互相幫助  
+✅ 你聽到「太酷了！」或「哇！」  
+✅ 時間飛逝
+
+### 課後
+✅ 學生詢問下次課程是什麼時候  
+✅ 他們在課後繼續工作  
+✅ 調查滿意度高分  
+✅ 學生向同事/朋友報告  
+✅ 你感到充滿活力，而非精疲力竭
+
+---
+
+## 📚 教師額外資源
+
+### 教學背景
+- STEM 領域的主動學習
+- 建構主義教學方法
+- 教育中的 AI 研究
+
+### 技術資源
+- ObsPy 文檔
+- IRIS 網路研討會
+- 地震學會教育材料
+
+### 社群
+- 教師討論論壇
+- ObsPy 郵件列表
+- 地震學教育網路
+
+---
+
+**記住：你的目標不是完美，而是進步。讓它有趣、讓它易於接近，學生就會茁壯成長！** 🌟
+
+---
+
+## 🔄 持續改進
+
+每次課程後：
+1. 什麼效果好？多做一些。
+2. 什麼效果不好？修正或移除。
+3. 什麼讓你驚訝？調查原因。
+4. 出現了什麼問題？加入常見問題。
+5. AI 工具如何能提供更多幫助？更好地整合。
+
+**教學即學習。每次課程都讓你變得更好！** 🚀
 
