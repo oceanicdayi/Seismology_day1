@@ -1,43 +1,43 @@
-# First Day Seismology Class Proposal: AI-Enhanced Learning Environment
+# 地震學第一天課程提案：AI 增強學習環境
 
-## Course Overview
-This proposal outlines an innovative approach to teaching introductory seismology using modern AI tools and coding practices. The course integrates traditional seismological concepts with cutting-edge technology to create an engaging, practical learning experience.
+## 課程概覽
+本提案概述了一種創新的地震學入門教學方法，採用現代 AI 工具和程式設計實踐。本課程將傳統地震學概念與尖端技術相結合，創造出引人入勝、實用的學習體驗。
 
-## Learning Objectives
+## 學習目標
 
-### Day 1 Goals
-1. **Environment Setup**: Students will configure their development environment for seismological data analysis
-2. **AI-Assisted Learning**: Learn to leverage AI tools (Gemini, NotebookLM) for knowledge extraction
-3. **Coding Fundamentals**: Introduction to Python programming for seismology
-4. **Data Exploration**: Basic seismological data handling and visualization
+### 第一天目標
+1. **環境設置**：學生將配置其地震學資料分析的開發環境
+2. **AI 輔助學習**：學習運用 AI 工具（Gemini、NotebookLM）進行知識萃取
+3. **程式設計基礎**：地震學的 Python 程式設計入門
+4. **資料探索**：基礎地震學資料處理和視覺化
 
-## Innovative Teaching Approach
+## 創新教學方法
 
-### 1. Google Colab Integration (The "Antigravity" Platform)
-We'll use Google Colab as our primary teaching platform:
-- **Zero Installation Required**: Students can start coding immediately
-- **Cloud-Based Computing**: Access to GPUs for data processing
-- **Built-in AI Assistant**: Gemini integration for real-time help
-- **Collaborative Features**: Share and work together on notebooks
+### 1. Google Colab 整合（「反重力」平台）
+我們將使用 Google Colab 作為主要教學平台：
+- **無需安裝**：學生可以立即開始編程
+- **雲端運算**：存取 GPU 進行資料處理
+- **內建 AI 助理**：Gemini 整合提供即時幫助
+- **協作功能**：共享和協同處理筆記本
 
-### 2. AI Agent Integration
-Students will learn to use AI as a learning companion:
+### 2. AI 代理整合
+學生將學習使用 AI 作為學習夥伴：
 
-#### Gemini AI Assistant
-- **Code Generation**: Learn to prompt AI for seismology-specific code
-- **Concept Explanation**: Ask questions about seismological principles
-- **Debugging Help**: Get assistance with code errors
-- **Documentation Search**: Quick lookup of library functions
+#### Gemini AI 助理
+- **程式碼生成**：學習提示 AI 生成地震學專用程式碼
+- **概念解釋**：詢問地震學原理問題
+- **除錯協助**：獲得程式碼錯誤的協助
+- **文件搜尋**：快速查找函式庫功能
 
-#### NotebookLM for Knowledge Extraction
-- **Textbook Processing**: Upload seismology textbooks for AI-powered summaries
-- **Q&A Sessions**: Ask questions about specific chapters or concepts
-- **Study Guides**: Generate personalized study materials
-- **Concept Mapping**: Understand relationships between seismological concepts
+#### NotebookLM 知識萃取
+- **教科書處理**：上傳地震學教科書以獲得 AI 驅動的摘要
+- **問答環節**：詢問有關特定章節或概念的問題
+- **學習指南**：生成個人化學習材料
+- **概念映射**：理解地震學概念之間的關係
 
-### 3. Hands-On Learning Path
+### 3. 實作學習路徑
 
-#### Phase 1: Environment Setup (30 minutes)
+#### 階段一：環境設置（30 分鐘）
 ```
 1. Access Google Colab
 2. Connect to runtime
@@ -45,7 +45,7 @@ Students will learn to use AI as a learning companion:
 4. Test installation with sample code
 ```
 
-#### Phase 2: AI-Assisted Learning (45 minutes)
+#### 階段二：AI 輔助學習（45 分鐘）
 ```
 1. Setup NotebookLM with course materials
 2. Practice querying AI for seismology concepts
@@ -53,7 +53,7 @@ Students will learn to use AI as a learning companion:
 4. Generate study summaries
 ```
 
-#### Phase 3: Basic Seismology Coding (60 minutes)
+#### 階段三：基礎地震學編程（60 分鐘）
 ```
 1. Load seismic data files
 2. Visualize waveforms
@@ -61,7 +61,7 @@ Students will learn to use AI as a learning companion:
 4. Plot results
 ```
 
-#### Phase 4: Interactive Exercises (45 minutes)
+#### 階段四：互動練習（45 分鐘）
 ```
 1. Earthquake location exercise
 2. Magnitude calculation practice
@@ -69,15 +69,15 @@ Students will learn to use AI as a learning companion:
 4. Group discussion and Q&A
 ```
 
-## Technology Stack
+## 技術堆疊
 
-### Core Tools
-- **Python 3.8+**: Primary programming language
-- **Google Colab**: Development environment
-- **Gemini AI**: Coding assistant and tutor
-- **NotebookLM**: Knowledge base and study companion
+### 核心工具
+- **Python 3.8+**：主要程式設計語言
+- **Google Colab**：開發環境
+- **Gemini AI**：編程助理和導師
+- **NotebookLM**：知識庫和學習夥伴
 
-### Python Libraries
+### Python 函式庫
 ```python
 obspy          # Seismological data processing
 numpy          # Numerical computations
@@ -87,193 +87,193 @@ scipy          # Scientific computing
 cartopy        # Geographic plotting (optional)
 ```
 
-## Teaching Methodology
+## 教學方法論
 
-### 1. Show, Don't Just Tell
-- Live coding demonstrations
-- Real seismic data from recent earthquakes
-- Interactive visualizations
-- Immediate feedback loops
+### 1. 示範，而非僅僅講述
+- 現場編程示範
+- 來自近期地震的真實地震資料
+- 互動式視覺化
+- 即時回饋循環
 
-### 2. AI-Augmented Learning
-- Encourage students to ask AI questions
-- Teach effective prompting techniques
-- Use AI for personalized learning paths
-- Generate custom examples based on student needs
+### 2. AI 增強學習
+- 鼓勵學生向 AI 提問
+- 教授有效的提示技巧
+- 使用 AI 創建個人化學習路徑
+- 根據學生需求生成自訂範例
 
-### 3. Progressive Difficulty
-- Start with simple tasks (load data, plot graphs)
-- Gradually introduce complex concepts
-- Build on previous knowledge
-- Provide scaffolded exercises
+### 3. 漸進式難度
+- 從簡單任務開始（載入資料、繪製圖表）
+- 逐步引入複雜概念
+- 建立在先前知識的基礎上
+- 提供鷹架式練習
 
-### 4. Collaborative Learning
-- Pair programming exercises
-- Group problem-solving sessions
-- Shared notebooks for peer review
-- Community learning through discussion
+### 4. 協作學習
+- 配對程式設計練習
+- 小組問題解決環節
+- 共享筆記本進行同儕審查
+- 通過討論進行社群學習
 
-## Student Resources
+## 學生資源
 
-### Pre-Class Materials
-1. Welcome email with Colab link
-2. Short video: "What is Seismology?"
-3. Installation guide (for local setup, optional)
-4. Reading list with NotebookLM integration instructions
+### 課前材料
+1. 包含 Colab 連結的歡迎郵件
+2. 短片：「什麼是地震學？」
+3. 安裝指南（適用於本地設置，選用）
+4. 包含 NotebookLM 整合說明的閱讀清單
 
-### During-Class Resources
-1. Step-by-step tutorial notebooks
-2. Sample seismic data files
-3. Quick reference cards
-4. AI prompt templates
+### 課中資源
+1. 逐步教學筆記本
+2. 樣本地震資料檔案
+3. 快速參考卡
+4. AI 提示範本
 
-### Post-Class Materials
-1. Practice exercises with solutions
-2. Additional reading materials
-3. Links to seismology datasets
-4. Community forum access
+### 課後材料
+1. 附解答的練習題
+2. 額外閱讀材料
+3. 地震學資料集連結
+4. 社群論壇存取
 
-## Sample Lesson Plan
+## 課程計劃範例
 
-### Minute-by-Minute Schedule
+### 分鐘級進度表
 
-**0-15 minutes: Welcome & Setup**
-- Introduction to seismology and course goals
-- Access Google Colab
-- Test basic Python commands
-- Overview of AI tools
+**0-15 分鐘：歡迎與設置**
+- 地震學和課程目標介紹
+- 存取 Google Colab
+- 測試基本 Python 指令
+- AI 工具概覽
 
-**15-30 minutes: AI Tools Introduction**
-- Setup NotebookLM with course textbook
-- Practice asking questions to AI
-- Learn effective prompting
-- Extract key concepts from textbook sections
+**15-30 分鐘：AI 工具介紹**
+- 使用課程教科書設置 NotebookLM
+- 練習向 AI 提問
+- 學習有效的提示技巧
+- 從教科書章節中萃取關鍵概念
 
-**30-45 minutes: Python Basics for Seismology**
-- Variables and data types
-- Lists and arrays
-- Basic plotting
-- File I/O operations
+**30-45 分鐘：地震學的 Python 基礎**
+- 變數和資料類型
+- 列表和陣列
+- 基礎繪圖
+- 檔案 I/O 操作
 
-**45-90 minutes: First Seismology Program**
-- Load seismic data using ObsPy
-- Understand waveform data structure
-- Create time-series plots
-- Calculate basic statistics
+**45-90 分鐘：第一個地震學程式**
+- 使用 ObsPy 載入地震資料
+- 理解波形資料結構
+- 建立時間序列圖
+- 計算基本統計
 
-**90-120 minutes: Guided Exercise**
-- Work on earthquake analysis exercise
-- Use AI assistance when stuck
-- Share results with class
-- Discuss findings
+**90-120 分鐘：引導式練習**
+- 進行地震分析練習
+- 遇到困難時使用 AI 協助
+- 與全班分享結果
+- 討論發現
 
-**120-150 minutes: Interactive Session**
-- Student presentations (optional)
-- Q&A with AI assistance
-- Preview next session
-- Homework assignment
+**120-150 分鐘：互動環節**
+- 學生展示（選用）
+- 在 AI 協助下進行問答
+- 預覽下一堂課
+- 作業分配
 
-## Assessment Strategy
+## 評估策略
 
-### Formative Assessment
-- In-class coding exercises
-- AI-assisted problem solving
-- Peer code review
-- Quick quizzes via Colab
+### 形成性評估
+- 課堂編程練習
+- AI 輔助問題解決
+- 同儕程式碼審查
+- 透過 Colab 進行的快速測驗
 
-### Learning Outcomes Verification
-Students should be able to:
-1. Set up a Python environment for seismology
-2. Use AI tools effectively for learning
-3. Load and visualize seismic data
-4. Write basic data analysis scripts
-5. Debug code with AI assistance
+### 學習成果驗證
+學生應能夠：
+1. 為地震學設置 Python 環境
+2. 有效使用 AI 工具進行學習
+3. 載入和視覺化地震資料
+4. 編寫基本資料分析腳本
+5. 在 AI 協助下除錯程式碼
 
-## Accessibility Features
+## 無障礙功能
 
-### Inclusive Design
-- Closed captions for videos
-- Screen reader compatible notebooks
-- High contrast visualizations
-- Multiple learning modalities
+### 包容性設計
+- 影片字幕
+- 螢幕閱讀器相容筆記本
+- 高對比度視覺化
+- 多種學習模式
 
-### Support Systems
-- AI tutor available 24/7
-- Office hours for additional help
-- Peer mentoring program
-- Online forum for questions
+### 支援系統
+- 全天候 AI 導師
+- 額外協助的辦公時間
+- 同儕輔導計畫
+- 線上問答論壇
 
-## Expected Outcomes
+## 預期成果
 
-By the end of Day 1, students will:
-1. ✅ Have a working seismology coding environment
-2. ✅ Understand how to use AI for learning
-3. ✅ Be able to load and visualize seismic data
-4. ✅ Have written their first seismology program
-5. ✅ Feel confident using Python for data analysis
-6. ✅ Know how to get help from AI tools
-7. ✅ Be excited for the next session!
+在第一天結束時，學生將：
+1. ✅ 擁有可運作的地震學編程環境
+2. ✅ 理解如何使用 AI 進行學習
+3. ✅ 能夠載入和視覺化地震資料
+4. ✅ 已經編寫了第一個地震學程式
+5. ✅ 對使用 Python 進行資料分析感到自信
+6. ✅ 知道如何從 AI 工具獲得幫助
+7. ✅ 對下一堂課感到興奮！
 
-## Success Metrics
+## 成功指標
 
-### Quantitative Measures
-- 100% of students complete environment setup
-- 90%+ successfully run first seismology program
-- 85%+ complete in-class exercises
-- Average satisfaction score: 4.5/5
+### 量化指標
+- 100% 的學生完成環境設置
+- 90%+ 成功執行第一個地震學程式
+- 85%+ 完成課堂練習
+- 平均滿意度分數：4.5/5
 
-### Qualitative Measures
-- Student confidence in coding
-- Enthusiasm for AI-assisted learning
-- Quality of questions asked
-- Engagement in discussions
+### 質化指標
+- 學生編程信心
+- 對 AI 輔助學習的熱情
+- 提問品質
+- 討論參與度
 
-## Future Sessions Preview
+## 未來課程預覽
 
-### Day 2 Topics
-- Advanced data processing
-- Earthquake location algorithms
-- Machine learning for seismology
-- Real-time data analysis
+### 第二天主題
+- 進階資料處理
+- 地震定位演算法
+- 地震學的機器學習
+- 即時資料分析
 
-### Long-term Skills
-- Independent research capabilities
-- Advanced Python programming
-- AI tool mastery
-- Scientific communication
+### 長期技能
+- 獨立研究能力
+- 進階 Python 程式設計
+- AI 工具精通
+- 科學溝通
 
-## Budget and Resources
+## 預算和資源
 
-### Free Tools
-- Google Colab (free tier sufficient)
-- Gemini AI (free access)
-- NotebookLM (free)
-- Open-source Python libraries
-- Public seismic data
+### 免費工具
+- Google Colab（免費版本已足夠）
+- Gemini AI（免費存取）
+- NotebookLM（免費）
+- 開源 Python 函式庫
+- 公開地震資料
 
-### Optional Paid Resources
-- Colab Pro (for faster processing)
-- Advanced AI features
-- Cloud storage for large datasets
+### 選用付費資源
+- Colab Pro（更快處理速度）
+- 進階 AI 功能
+- 大型資料集的雲端儲存
 
-## Conclusion
+## 結論
 
-This proposal presents a modern, accessible, and engaging approach to teaching seismology. By combining traditional scientific education with cutting-edge AI tools, we create a learning environment that:
+本提案呈現了一種現代、易於使用且引人入勝的地震學教學方法。通過結合傳統科學教育與尖端 AI 工具，我們創造了一個學習環境：
 
-1. **Lowers barriers to entry**: No complex installations required
-2. **Accelerates learning**: AI assistance provides immediate help
-3. **Builds practical skills**: Real coding with real data
-4. **Prepares for the future**: AI literacy is essential for modern science
-5. **Inspires curiosity**: Interactive, hands-on approach keeps students engaged
+1. **降低入門門檻**：無需複雜安裝
+2. **加速學習**：AI 協助提供即時幫助
+3. **建立實用技能**：使用真實資料進行真實編程
+4. **為未來做好準備**：AI 素養對現代科學至關重要
+5. **激發好奇心**：互動式、實作方法讓學生保持參與
 
-The "antigravity" metaphor captures the essence of this approach: we're removing the friction and complexity that often prevents students from engaging with technical material, allowing them to focus on learning and discovery.
+「反重力」的隱喻捕捉了這種方法的本質：我們正在消除通常阻止學生接觸技術材料的摩擦和複雜性，讓他們能夠專注於學習和探索。
 
-## Contact and Questions
+## 聯絡和問題
 
-For questions or suggestions about this proposal, please open an issue or contact the course instructor.
+如有關於本提案的問題或建議，請開啟 issue 或聯絡課程講師。
 
 ---
 
-**Document Version**: 1.0  
-**Last Updated**: 2026-02-08  
-**Author**: Course Development Team  
+**文件版本**：1.0  
+**最後更新**：2026-02-08  
+**作者**：課程開發團隊  

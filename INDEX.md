@@ -1,261 +1,261 @@
-# 📑 Documentation Index - Seismology Day 1
+# 📑 文件索引 - 地震學第一天
 
-**Complete guide to all course materials**
-
----
-
-## 🚀 Start Here
-
-**New to everything?** → [GETTING_STARTED.md](GETTING_STARTED.md)  
-Choose your learning path and get started in 5 minutes!
+**所有課程資料的完整指南**
 
 ---
 
-## 📚 Complete File List
+## 🚀 從這裡開始
 
-### Core Documentation
+**完全新手？** → [GETTING_STARTED.md](GETTING_STARTED.md)  
+選擇您的學習路徑，5 分鐘內開始學習！
 
-| File | Description | Target Audience | Est. Time |
+---
+
+## 📚 完整檔案列表
+
+### 核心文件
+
+| 檔案 | 說明 | 目標對象 | 預計時間 |
 |------|-------------|-----------------|-----------|
-| **[GETTING_STARTED.md](GETTING_STARTED.md)** | Entry point with learning paths | Everyone | 5 min |
-| **[README.md](README.md)** | Repository overview | Everyone | 5 min |
-| **[PROPOSAL.md](PROPOSAL.md)** | Full course proposal & philosophy | Instructors, Planners | 15 min |
+| **[GETTING_STARTED.md](GETTING_STARTED.md)** | 包含學習路徑的入口點 | 所有人 | 5 分鐘 |
+| **[README.md](README.md)** | 儲存庫概覽 | 所有人 | 5 分鐘 |
+| **[PROPOSAL.md](PROPOSAL.md)** | 完整的課程提案與理念 | 講師、規劃者 | 15 分鐘 |
 
-### Student Materials
+### 學生資料
 
-| File | Description | When to Use | Est. Time |
+| 檔案 | 說明 | 使用時機 | 預計時間 |
 |------|-------------|-------------|-----------|
-| **[SETUP_GUIDE.md](SETUP_GUIDE.md)** | Environment setup instructions | Before starting | 10 min |
-| **[first_day_tutorial.ipynb](first_day_tutorial.ipynb)** | Interactive coding tutorial | Main learning activity | 2 hours |
-| **[EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md)** | Detailed code walkthrough | Reference while coding | 30 min |
-| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | Cheat sheet for coding | Keep open while working | 2 min |
-| **[AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)** | How to use AI effectively | When using AI tools | 20 min |
+| **[SETUP_GUIDE.md](SETUP_GUIDE.md)** | 環境設置說明 | 開始之前 | 10 分鐘 |
+| **[first_day_tutorial.ipynb](first_day_tutorial.ipynb)** | 互動式編程教學 | 主要學習活動 | 2 小時 |
+| **[EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md)** | 詳細的程式碼逐步解說 | 編程時參考 | 30 分鐘 |
+| **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** | 編程速查表 | 工作時保持開啟 | 2 分鐘 |
+| **[AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)** | 如何有效使用 AI | 使用 AI 工具時 | 20 分鐘 |
 
-### Instructor Materials
+### 講師資料
 
-| File | Description | When to Use | Est. Time |
+| 檔案 | 說明 | 使用時機 | 預計時間 |
 |------|-------------|-------------|-----------|
-| **[INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)** | Complete lesson plan | Before teaching | 20 min |
-| **[PROPOSAL.md](PROPOSAL.md)** | Course design rationale | Planning stage | 15 min |
+| **[INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)** | 完整的課程計劃 | 教學前 | 20 分鐘 |
+| **[PROPOSAL.md](PROPOSAL.md)** | 課程設計理念 | 規劃階段 | 15 分鐘 |
 
-### Technical Files
+### 技術檔案
 
-| File | Description | Purpose |
+| 檔案 | 說明 | 用途 |
 |------|-------------|---------|
-| **[requirements.txt](requirements.txt)** | Python dependencies | Local installation |
+| **[requirements.txt](requirements.txt)** | Python 依賴項 | 本地安裝 |
 
 ---
 
-## 🎯 Learning Paths
+## 🎯 學習路徑
 
-### Path A: "I'm a Student - First Time Coding"
+### 路徑 A：「我是學生 - 第一次編程」
 
-1. ✅ [GETTING_STARTED.md](GETTING_STARTED.md) - Choose Path 1
-2. ✅ [SETUP_GUIDE.md](SETUP_GUIDE.md) - Setup environment
-3. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Start coding
-4. ✅ [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Keep handy
-5. ✅ [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - Use AI help
+1. ✅ [GETTING_STARTED.md](GETTING_STARTED.md) - 選擇路徑 1
+2. ✅ [SETUP_GUIDE.md](SETUP_GUIDE.md) - 設置環境
+3. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 開始編程
+4. ✅ [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 隨手可查
+5. ✅ [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - 使用 AI 幫助
 
-**Optional deep dive:**
-- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - More details
-- [PROPOSAL.md](PROPOSAL.md) - Understand the approach
+**選修深入學習：**
+- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 更多細節
+- [PROPOSAL.md](PROPOSAL.md) - 理解方法
 
-### Path B: "I'm a Student - Know Some Coding"
+### 路徑 B：「我是學生 - 有一些編程基礎」
 
-1. ✅ [GETTING_STARTED.md](GETTING_STARTED.md) - Quick overview
-2. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Jump in
-3. ✅ [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - AI-enhanced learning
-4. ✅ [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - Advanced topics
+1. ✅ [GETTING_STARTED.md](GETTING_STARTED.md) - 快速概覽
+2. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 直接開始
+3. ✅ [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - AI 增強學習
+4. ✅ [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 進階主題
 
-**Reference:**
-- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick lookup
+**參考資料：**
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 快速查詢
 
-### Path C: "I'm an Instructor"
+### 路徑 C：「我是講師」
 
-1. ✅ [PROPOSAL.md](PROPOSAL.md) - Understand philosophy
-2. ✅ [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - Lesson plan
-3. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Test it yourself
-4. ✅ [SETUP_GUIDE.md](SETUP_GUIDE.md) - Know student experience
-5. ✅ All other docs - Familiarize yourself
+1. ✅ [PROPOSAL.md](PROPOSAL.md) - 理解理念
+2. ✅ [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - 課程計劃
+3. ✅ [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 親自測試
+4. ✅ [SETUP_GUIDE.md](SETUP_GUIDE.md) - 了解學生體驗
+5. ✅ 所有其他文件 - 熟悉內容
 
-**Teaching prep:**
-- Test all code examples
-- Prepare AI tools (Colab, NotebookLM)
-- Review common issues in SETUP_GUIDE
-
----
-
-## 📖 By Topic
-
-### Getting Started
-- [GETTING_STARTED.md](GETTING_STARTED.md) - Entry point
-- [SETUP_GUIDE.md](SETUP_GUIDE.md) - Technical setup
-- [README.md](README.md) - Overview
-
-### Learning to Code
-- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Main tutorial
-- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - Detailed examples
-- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick commands
-
-### Using AI Tools
-- [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - Complete AI guide
-- [PROPOSAL.md](PROPOSAL.md) - AI philosophy (Section 2)
-- [SETUP_GUIDE.md](SETUP_GUIDE.md) - AI setup section
-
-### Teaching
-- [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - Complete lesson plan
-- [PROPOSAL.md](PROPOSAL.md) - Course design
-- All student materials - Know what they see
-
-### Seismology Concepts
-- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - Wave types, analysis
-- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Hands-on practice
-- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Station & channel codes
+**教學準備：**
+- 測試所有程式碼範例
+- 準備 AI 工具（Colab、NotebookLM）
+- 查看 SETUP_GUIDE 中的常見問題
 
 ---
 
-## 🔍 By Content Type
+## 📖 按主題分類
 
-### Comprehensive Guides
-- [PROPOSAL.md](PROPOSAL.md) - 8.4 KB, complete methodology
-- [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - 13.3 KB, detailed teaching plan
-- [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - 10.8 KB, AI mastery
-- [GETTING_STARTED.md](GETTING_STARTED.md) - 10.6 KB, all paths
+### 入門指南
+- [GETTING_STARTED.md](GETTING_STARTED.md) - 入口點
+- [SETUP_GUIDE.md](SETUP_GUIDE.md) - 技術設置
+- [README.md](README.md) - 概覽
 
-### Tutorials
-- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - Interactive notebook
-- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 9.1 KB, step-by-step
-- [SETUP_GUIDE.md](SETUP_GUIDE.md) - 8.1 KB, setup walkthrough
+### 學習編程
+- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 主教學
+- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 詳細範例
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 快速指令
 
-### Quick Reference
-- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 5.6 KB, cheat sheet
-- [README.md](README.md) - 8.3 KB, overview
+### 使用 AI 工具
+- [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - 完整 AI 指南
+- [PROPOSAL.md](PROPOSAL.md) - AI 理念（第 2 節）
+- [SETUP_GUIDE.md](SETUP_GUIDE.md) - AI 設置部分
 
----
+### 教學
+- [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - 完整課程計劃
+- [PROPOSAL.md](PROPOSAL.md) - 課程設計
+- 所有學生資料 - 了解他們看到的內容
 
-## 📊 Document Statistics
-
-### Total Documentation
-- **10 files** (9 markdown + 1 notebook + 1 requirements)
-- **~90 KB** of documentation
-- **~100 pages** if printed
-- **6-10 hours** of reading material
-- **2-3 hours** of hands-on practice
-
-### Coverage
-✅ Complete course proposal  
-✅ Step-by-step setup guide  
-✅ Interactive coding tutorial  
-✅ AI learning integration  
-✅ Instructor lesson plan  
-✅ Quick reference materials  
-✅ Example code & explanations  
+### 地震學概念
+- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 波型、分析
+- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 實作練習
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 測站與通道代碼
 
 ---
 
-## 🎯 Quick Access by Need
+## 🔍 按內容類型分類
 
-### "I need to..."
+### 綜合指南
+- [PROPOSAL.md](PROPOSAL.md) - 8.4 KB，完整方法論
+- [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) - 13.3 KB，詳細教學計劃
+- [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) - 10.8 KB，AI 精通
+- [GETTING_STARTED.md](GETTING_STARTED.md) - 10.6 KB，所有路徑
 
-**...start learning right now**
-→ [GETTING_STARTED.md](GETTING_STARTED.md) → Path 1
+### 教學
+- [first_day_tutorial.ipynb](first_day_tutorial.ipynb) - 互動式筆記本
+- [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md) - 9.1 KB，逐步教學
+- [SETUP_GUIDE.md](SETUP_GUIDE.md) - 8.1 KB，設置演練
 
-**...set up my environment**
+### 快速參考
+- [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - 5.6 KB，速查表
+- [README.md](README.md) - 8.3 KB，概覽
+
+---
+
+## 📊 文件統計
+
+### 總文件數
+- **10 個檔案**（9 個 markdown + 1 個筆記本 + 1 個 requirements）
+- **約 90 KB** 的文件
+- **約 100 頁** 如果列印
+- **6-10 小時** 的閱讀材料
+- **2-3 小時** 的實作練習
+
+### 涵蓋內容
+✅ 完整的課程提案  
+✅ 逐步設置指南  
+✅ 互動式編程教學  
+✅ AI 學習整合  
+✅ 講師課程計劃  
+✅ 快速參考資料  
+✅ 範例程式碼與說明  
+
+---
+
+## 🎯 按需求快速存取
+
+### 「我需要...」
+
+**...現在就開始學習**
+→ [GETTING_STARTED.md](GETTING_STARTED.md) → 路徑 1
+
+**...設置我的環境**
 → [SETUP_GUIDE.md](SETUP_GUIDE.md)
 
-**...understand the course philosophy**
+**...理解課程理念**
 → [PROPOSAL.md](PROPOSAL.md)
 
-**...code my first earthquake analysis**
+**...編寫我的第一個地震分析**
 → [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
 
-**...look up a command**
+**...查詢指令**
 → [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
 
-**...learn to use AI effectively**
+**...學習有效使用 AI**
 → [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)
 
-**...prepare to teach this course**
+**...準備教授這門課程**
 → [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)
 
-**...see detailed examples**
+**...查看詳細範例**
 → [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md)
 
-**...troubleshoot an issue**
-→ [SETUP_GUIDE.md](SETUP_GUIDE.md) → Troubleshooting section
+**...排解問題**
+→ [SETUP_GUIDE.md](SETUP_GUIDE.md) → 疑難排解部分
 
 ---
 
-## 🔗 External Resources
+## 🔗 外部資源
 
-### Required Tools
+### 必需工具
 - **Google Colab**: https://colab.research.google.com/
 - **NotebookLM**: https://notebooklm.google.com/
 
-### Data Sources
+### 資料來源
 - **IRIS**: https://www.iris.edu/
 - **USGS**: https://earthquake.usgs.gov/
 
-### Documentation
+### 文件
 - **ObsPy**: https://docs.obspy.org/
 - **Python**: https://docs.python.org/
 
 ---
 
-## ✅ Completion Checklist
+## ✅ 完成清單
 
-### For Students
+### 學生用
 
-**Before Starting:**
-- [ ] Read [GETTING_STARTED.md](GETTING_STARTED.md)
-- [ ] Complete [SETUP_GUIDE.md](SETUP_GUIDE.md)
-- [ ] Open [QUICK_REFERENCE.md](QUICK_REFERENCE.md) in separate tab
+**開始之前：**
+- [ ] 閱讀 [GETTING_STARTED.md](GETTING_STARTED.md)
+- [ ] 完成 [SETUP_GUIDE.md](SETUP_GUIDE.md)
+- [ ] 在另一個分頁開啟 [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
 
-**During Learning:**
-- [ ] Work through [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
-- [ ] Complete all exercises
-- [ ] Try AI tools with [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)
+**學習期間：**
+- [ ] 完成 [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
+- [ ] 完成所有練習
+- [ ] 使用 [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md) 試用 AI 工具
 
-**For Deeper Understanding:**
-- [ ] Read [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md)
-- [ ] Read [PROPOSAL.md](PROPOSAL.md) philosophy section
-- [ ] Explore advanced topics
+**深入理解：**
+- [ ] 閱讀 [EXAMPLE_TUTORIAL.md](EXAMPLE_TUTORIAL.md)
+- [ ] 閱讀 [PROPOSAL.md](PROPOSAL.md) 理念部分
+- [ ] 探索進階主題
 
-### For Instructors
+### 講師用
 
-**Preparation:**
-- [ ] Read [PROPOSAL.md](PROPOSAL.md) completely
-- [ ] Study [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)
-- [ ] Test [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
-- [ ] Review all student materials
+**準備：**
+- [ ] 完整閱讀 [PROPOSAL.md](PROPOSAL.md)
+- [ ] 研讀 [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)
+- [ ] 測試 [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
+- [ ] 查看所有學生資料
 
-**Setup:**
-- [ ] Create class Colab notebook
-- [ ] Test IRIS data access
-- [ ] Setup NotebookLM with materials
-- [ ] Prepare backup activities
+**設置：**
+- [ ] 建立課堂 Colab 筆記本
+- [ ] 測試 IRIS 資料存取
+- [ ] 使用資料設置 NotebookLM
+- [ ] 準備備用活動
 
-**Teaching:**
-- [ ] Follow [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) timeline
-- [ ] Use [QUICK_REFERENCE.md](QUICK_REFERENCE.md) for demos
-- [ ] Reference [SETUP_GUIDE.md](SETUP_GUIDE.md) for troubleshooting
+**教學：**
+- [ ] 遵循 [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md) 時間表
+- [ ] 使用 [QUICK_REFERENCE.md](QUICK_REFERENCE.md) 進行演示
+- [ ] 參考 [SETUP_GUIDE.md](SETUP_GUIDE.md) 進行疑難排解
 
 ---
 
-## 🎓 Reading Order Recommendations
+## 🎓 閱讀順序建議
 
-### Minimum (30 minutes)
+### 最少（30 分鐘）
 1. [GETTING_STARTED.md](GETTING_STARTED.md)
 2. [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
-3. Start [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
+3. 開始 [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
 
-### Standard (2 hours)
+### 標準（2 小時）
 1. [GETTING_STARTED.md](GETTING_STARTED.md)
 2. [SETUP_GUIDE.md](SETUP_GUIDE.md)
 3. [first_day_tutorial.ipynb](first_day_tutorial.ipynb)
 4. [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
 
-### Complete (4 hours)
+### 完整（4 小時）
 1. [README.md](README.md)
 2. [GETTING_STARTED.md](GETTING_STARTED.md)
 3. [PROPOSAL.md](PROPOSAL.md)
@@ -265,45 +265,45 @@ Choose your learning path and get started in 5 minutes!
 7. [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)
 8. [QUICK_REFERENCE.md](QUICK_REFERENCE.md)
 
-### Instructor Prep (3 hours)
+### 講師準備（3 小時）
 1. [PROPOSAL.md](PROPOSAL.md)
 2. [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)
-3. All student materials in order
-4. Test all code examples
+3. 按順序閱讀所有學生資料
+4. 測試所有程式碼範例
 
 ---
 
-## 🌟 Key Features Across Documents
+## 🌟 各文件的主要特色
 
-### Consistent Elements
-- ✅ Clear learning objectives
-- ✅ Step-by-step instructions
-- ✅ Real code examples
-- ✅ AI integration guidance
-- ✅ Troubleshooting sections
-- ✅ Visual elements (emojis, formatting)
-- ✅ Progressive difficulty
-- ✅ Practical exercises
+### 一致的元素
+- ✅ 清晰的學習目標
+- ✅ 逐步說明
+- ✅ 真實的程式碼範例
+- ✅ AI 整合指導
+- ✅ 疑難排解部分
+- ✅ 視覺元素（表情符號、格式）
+- ✅ 漸進式難度
+- ✅ 實際練習
 
-### Unique Strengths
+### 獨特優勢
 
-**PROPOSAL.md**: Comprehensive methodology, assessment strategy  
-**INSTRUCTOR_GUIDE.md**: Minute-by-minute timing, teaching tips  
-**first_day_tutorial.ipynb**: Interactive, immediate feedback  
-**AI_PROMPTS_GUIDE.md**: Extensive prompt examples, iteration patterns  
-**SETUP_GUIDE.md**: Multiple platform support, detailed troubleshooting  
-**QUICK_REFERENCE.md**: Dense, scannable, printable  
-
----
-
-## 📞 Support
-
-**Technical Issues**: [SETUP_GUIDE.md](SETUP_GUIDE.md#troubleshooting)  
-**Learning Questions**: [AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)  
-**Teaching Help**: [INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)  
+**PROPOSAL.md**：全面的方法論、評估策略  
+**INSTRUCTOR_GUIDE.md**：分鐘級時間安排、教學技巧  
+**first_day_tutorial.ipynb**：互動式、即時回饋  
+**AI_PROMPTS_GUIDE.md**：豐富的提示範例、迭代模式  
+**SETUP_GUIDE.md**：多平台支援、詳細疑難排解  
+**QUICK_REFERENCE.md**：密集、可掃描、可列印  
 
 ---
 
-**This index is your map. Start wherever makes sense for you!** 🗺️
+## 📞 支援
 
-*Last Updated: 2026-02-08*
+**技術問題**：[SETUP_GUIDE.md](SETUP_GUIDE.md#troubleshooting)  
+**學習疑問**：[AI_PROMPTS_GUIDE.md](AI_PROMPTS_GUIDE.md)  
+**教學協助**：[INSTRUCTOR_GUIDE.md](INSTRUCTOR_GUIDE.md)  
+
+---
+
+**此索引是您的地圖。從任何對您有意義的地方開始！** 🗺️
+
+*最後更新：2026-02-08*
