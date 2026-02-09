@@ -1,21 +1,21 @@
-# Setup Guide: Getting Started with Seismology Coding
+# 設定指南：開始使用地震學編程
 
-Welcome to the First-Day Seismology Class! This guide will help you set up your environment and get started with AI-assisted learning.
+歡迎來到地震學第一天課程！本指南將幫助您設定環境並開始使用 AI 輔助學習。
 
-## Quick Start (Recommended for Beginners)
+## 快速開始（推薦初學者）
 
-### Option 1: Google Colab (Zero Installation Required) ⚡
+### 選項 1: Google Colab（無需安裝） ⚡
 
-This is the **easiest and recommended** way to get started!
+這是**最簡單且推薦**的入門方式！
 
-#### Step 1: Access Google Colab
-1. Open your web browser
-2. Go to: https://colab.research.google.com/
-3. Sign in with your Google account
-4. Click "New Notebook"
+#### 步驟 1：訪問 Google Colab
+1. 打開您的網頁瀏覽器
+2. 前往：https://colab.research.google.com/
+3. 使用您的 Google 帳戶登入
+4. 點擊「New Notebook」
 
-#### Step 2: Test Your Environment
-Copy and paste this code into a cell and press `Shift + Enter`:
+#### 步驟 2：測試您的環境
+將此代碼複製並貼到儲存格中，然後按 `Shift + Enter`：
 
 ```python
 import sys
@@ -23,8 +23,8 @@ print(f"Python version: {sys.version}")
 print("✅ Your environment is ready!")
 ```
 
-#### Step 3: Install Seismology Libraries
-Run this in a new cell:
+#### 步驟 3：安裝地震學函式庫
+在新儲存格中執行此代碼：
 
 ```python
 # Install seismology tools
@@ -36,165 +36,165 @@ print(f"✅ ObsPy version: {obspy.__version__}")
 print("🎉 All libraries installed successfully!")
 ```
 
-#### Step 4: Enable Gemini AI Assistant
-1. Click the "🤖" icon in the left sidebar
-2. Or use `Ctrl + Alt + Enter` to open AI chat
-3. Try asking: "How do I load seismic data in Python?"
+#### 步驟 4：啟用 Gemini AI 助理
+1. 點擊左側邊欄的「🤖」圖示
+2. 或使用 `Ctrl + Alt + Enter` 打開 AI 聊天
+3. 嘗試詢問：「How do I load seismic data in Python?」
 
-**That's it! You're ready to start coding!** 🚀
+**就是這樣！您已準備好開始編程！** 🚀
 
 ---
 
-## AI Learning Tools Setup
+## AI 學習工具設定
 
-### Setting Up NotebookLM
+### 設定 NotebookLM
 
-NotebookLM is your AI-powered study companion that can extract knowledge from textbooks.
+NotebookLM 是您的 AI 驅動學習夥伴，可以從教科書中提取知識。
 
-#### Step 1: Access NotebookLM
-1. Visit: https://notebooklm.google.com/
-2. Sign in with your Google account
-3. Click "New Notebook"
+#### 步驟 1：訪問 NotebookLM
+1. 前往：https://notebooklm.google.com/
+2. 使用您的 Google 帳戶登入
+3. 點擊「New Notebook」
 
-#### Step 2: Upload Course Materials
-1. Click "Add Source"
-2. Upload options:
-   - PDF of seismology textbook
-   - Google Drive documents
-   - Web pages (course syllabus, readings)
-   - YouTube videos (lectures)
+#### 步驟 2：上傳課程資料
+1. 點擊「Add Source」
+2. 上傳選項：
+   - 地震學教科書的 PDF
+   - Google Drive 文件
+   - 網頁（課程大綱、閱讀材料）
+   - YouTube 視頻（講座）
 
-#### Step 3: Start Learning
-Try these example queries:
+#### 步驟 3：開始學習
+嘗試以下範例查詢：
 
-**Basic Concepts:**
+**基本概念：**
 ```
 "What are P-waves and S-waves?"
 "Explain the difference between magnitude and intensity"
 "How do seismometers work?"
 ```
 
-**Coding Help:**
+**編程幫助：**
 ```
 "How do I process seismic data in Python?"
 "What is the ObsPy library used for?"
 "Show me examples of plotting seismic waveforms"
 ```
 
-**Study Guides:**
+**學習指南：**
 ```
 "Create a summary of Chapter 3"
 "What are the key concepts about earthquake location?"
 "Make a study guide for seismic wave propagation"
 ```
 
-### Using Gemini AI Effectively
+### 有效使用 Gemini AI
 
-#### In Google Colab
-Gemini is integrated directly into Colab:
+#### 在 Google Colab 中
+Gemini 直接整合到 Colab 中：
 
-1. **Code Generation:**
+1. **代碼生成：**
    ```
-   Prompt: "Write Python code to plot a sine wave"
-   Gemini will generate the code for you!
-   ```
-
-2. **Error Debugging:**
-   ```
-   When you get an error, ask:
-   "Why am I getting a NameError in this code?"
+   提示詞：「Write Python code to plot a sine wave」
+   Gemini 會為您生成代碼！
    ```
 
-3. **Explanation:**
+2. **錯誤調試：**
    ```
-   Select code and ask:
-   "Explain what this code does"
+   當您遇到錯誤時，詢問：
+   「Why am I getting a NameError in this code?」
    ```
 
-#### Effective Prompting Tips
+3. **解釋：**
+   ```
+   選擇代碼並詢問：
+   「Explain what this code does」
+   ```
 
-**Good Prompts:**
+#### 有效提示詞技巧
+
+**好的提示詞：**
 - ✅ "Write Python code to load a seismic file in miniSEED format using ObsPy"
 - ✅ "Explain the Richter magnitude scale in simple terms"
 - ✅ "Debug this error: ImportError: No module named 'obspy'"
 
-**Less Effective Prompts:**
-- ❌ "Code for seismology" (too vague)
-- ❌ "Help" (no context)
-- ❌ "Fix it" (AI doesn't know what "it" is)
+**效果較差的提示詞：**
+- ❌ "Code for seismology"（太模糊）
+- ❌ "Help"（沒有上下文）
+- ❌ "Fix it"（AI 不知道「它」是什麼）
 
 ---
 
-## Option 2: Local Installation (Advanced Users)
+## 選項 2：本地安裝（進階使用者）
 
-If you prefer to work on your local machine:
+如果您偏好在本地機器上工作：
 
-### Prerequisites
-- Python 3.8 or higher
-- Git (optional)
-- Text editor or IDE (VS Code recommended)
+### 先決條件
+- Python 3.8 或更高版本
+- Git（可選）
+- 文字編輯器或 IDE（推薦 VS Code）
 
-### Installation Steps
+### 安裝步驟
 
 #### Windows
 
-1. **Install Python:**
-   - Download from: https://www.python.org/downloads/
-   - Check "Add Python to PATH" during installation
-   - Verify: Open Command Prompt and type `python --version`
+1. **安裝 Python：**
+   - 從此處下載：https://www.python.org/downloads/
+   - 安裝時勾選「Add Python to PATH」
+   - 驗證：打開命令提示字元並輸入 `python --version`
 
-2. **Install Libraries:**
+2. **安裝函式庫：**
    ```cmd
    pip install obspy numpy matplotlib pandas jupyter
    ```
 
-3. **Start Jupyter:**
+3. **啟動 Jupyter：**
    ```cmd
    jupyter notebook
    ```
 
 #### macOS
 
-1. **Install Python (using Homebrew):**
+1. **安裝 Python（使用 Homebrew）：**
    ```bash
    brew install python
    ```
 
-2. **Install Libraries:**
+2. **安裝函式庫：**
    ```bash
    pip3 install obspy numpy matplotlib pandas jupyter
    ```
 
-3. **Start Jupyter:**
+3. **啟動 Jupyter：**
    ```bash
    jupyter notebook
    ```
 
 #### Linux (Ubuntu/Debian)
 
-1. **Install Python:**
+1. **安裝 Python：**
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
    ```
 
-2. **Install Libraries:**
+2. **安裝函式庫：**
    ```bash
    pip3 install obspy numpy matplotlib pandas jupyter
    ```
 
-3. **Start Jupyter:**
+3. **啟動 Jupyter：**
    ```bash
    jupyter notebook
    ```
 
 ---
 
-## Verification Tests
+## 驗證測試
 
-Run these tests to make sure everything works:
+執行以下測試以確保一切正常運作：
 
-### Test 1: Basic Python
+### 測試 1：基本 Python
 ```python
 # Test basic Python
 x = [1, 2, 3, 4, 5]
@@ -202,7 +202,7 @@ print(f"Sum: {sum(x)}")
 print("✅ Python works!")
 ```
 
-### Test 2: NumPy
+### 測試 2：NumPy
 ```python
 # Test NumPy
 import numpy as np
@@ -211,7 +211,7 @@ print(f"Mean: {np.mean(arr)}")
 print("✅ NumPy works!")
 ```
 
-### Test 3: Matplotlib
+### 測試 3：Matplotlib
 ```python
 # Test Matplotlib
 import matplotlib.pyplot as plt
@@ -221,7 +221,7 @@ plt.show()
 print("✅ Matplotlib works!")
 ```
 
-### Test 4: ObsPy
+### 測試 4：ObsPy
 ```python
 # Test ObsPy
 from obspy import read
@@ -234,9 +234,9 @@ print("🎉 You can download real seismic data!")
 
 ---
 
-## Getting Your First Seismic Data
+## 獲取您的第一個地震資料
 
-Let's download real earthquake data!
+讓我們下載真實的地震資料！
 
 ```python
 from obspy import UTCDateTime
@@ -269,54 +269,54 @@ st.plot()
 
 ---
 
-## Troubleshooting
+## 疑難排解
 
-### Common Issues
+### 常見問題
 
-**Problem: "pip command not found"**
-- **Solution:** Python not in PATH. Reinstall Python and check "Add to PATH"
+**問題：「pip command not found」**
+- **解決方案：** Python 不在 PATH 中。重新安裝 Python 並勾選「Add to PATH」
 
-**Problem: "No module named 'obspy'"**
-- **Solution:** Run `pip install obspy` or `pip3 install obspy`
+**問題：「No module named 'obspy'」**
+- **解決方案：** 執行 `pip install obspy` 或 `pip3 install obspy`
 
-**Problem: "Permission denied" on Linux/Mac**
-- **Solution:** Use `pip3 install --user obspy`
+**問題：Linux/Mac 上出現「Permission denied」**
+- **解決方案：** 使用 `pip3 install --user obspy`
 
-**Problem: Can't see plots in Jupyter**
-- **Solution:** Add `%matplotlib inline` at the start of your notebook
+**問題：在 Jupyter 中看不到圖表**
+- **解決方案：** 在筆記本開頭加入 `%matplotlib inline`
 
-**Problem: Colab disconnects**
-- **Solution:** Click "Reconnect" or refresh the page
+**問題：Colab 斷線**
+- **解決方案：** 點擊「Reconnect」或重新整理頁面
 
-**Problem: Slow download speeds**
-- **Solution:** Try a different FDSN client (e.g., "USGS" instead of "IRIS")
+**問題：下載速度緩慢**
+- **解決方案：** 嘗試不同的 FDSN 客戶端（例如使用「USGS」代替「IRIS」）
 
-### Getting Help
+### 獲取幫助
 
-1. **Ask Gemini AI:** Describe your problem in the Colab chat
-2. **Check Documentation:** https://docs.obspy.org/
-3. **Use NotebookLM:** Upload error message and ask for explanation
-4. **Ask Instructor:** During office hours or in forum
-5. **Community:** ObsPy forum, Stack Overflow
-
----
-
-## Next Steps
-
-Once your environment is set up:
-
-1. ✅ Complete the verification tests above
-2. ✅ Download your first seismic data
-3. ✅ Set up NotebookLM with course materials
-4. ✅ Practice using Gemini for coding help
-5. ✅ Review the [PROPOSAL.md](PROPOSAL.md) for course overview
-6. ✅ Open the first tutorial notebook
+1. **詢問 Gemini AI：** 在 Colab 聊天中描述您的問題
+2. **查看文件：** https://docs.obspy.org/
+3. **使用 NotebookLM：** 上傳錯誤訊息並尋求解釋
+4. **詢問講師：** 在辦公時間或論壇中
+5. **社群：** ObsPy 論壇、Stack Overflow
 
 ---
 
-## Quick Reference Card
+## 下一步
 
-### Essential Commands
+設定好環境後：
+
+1. ✅ 完成上述驗證測試
+2. ✅ 下載您的第一個地震資料
+3. ✅ 使用課程資料設定 NotebookLM
+4. ✅ 練習使用 Gemini 獲取編程幫助
+5. ✅ 查看 [PROPOSAL.md](PROPOSAL.md) 以了解課程概述
+6. ✅ 打開第一個教學筆記本
+
+---
+
+## 快速參考卡
+
+### 基本命令
 
 ```python
 # Import libraries
@@ -342,7 +342,7 @@ print(st)
 st.filter("bandpass", freqmin=1.0, freqmax=10.0)
 ```
 
-### Useful AI Prompts
+### 實用的 AI 提示詞
 
 - "Load seismic data from IRIS"
 - "Plot a seismogram with time on x-axis"
@@ -352,25 +352,25 @@ st.filter("bandpass", freqmin=1.0, freqmax=10.0)
 
 ---
 
-## Resources
+## 資源
 
-### Official Documentation
+### 官方文件
 - **ObsPy:** https://docs.obspy.org/
 - **NumPy:** https://numpy.org/doc/
 - **Matplotlib:** https://matplotlib.org/stable/
 - **Python:** https://docs.python.org/3/
 
-### Data Sources
+### 資料來源
 - **IRIS:** https://www.iris.edu/
 - **USGS:** https://earthquake.usgs.gov/
 - **ORFEUS:** https://www.orfeus-eu.org/
 
-### Learning Resources
+### 學習資源
 - **ObsPy Tutorial:** https://docs.obspy.org/tutorial/
 - **Python for Seismology:** https://krischer.github.io/seismo_live/
 - **Seismology Datasets:** https://ds.iris.edu/ds/nodes/dmc/
 
 ---
 
-**Ready to start your seismology journey? Let's code!** 🌍📊🐍
+**準備好開始您的地震學之旅了嗎？讓我們開始編程吧！** 🌍📊🐍
 
